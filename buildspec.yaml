@@ -8,7 +8,7 @@ phases:
       - yarn install
   build:
     commands:
-      - yarn build
+      - yarn build:staging
   post_build:
     commands:
       - echo clear cloudfront cache
